@@ -6,7 +6,7 @@ def readFile(filename, lst):
     for line in fhand:
         lst.append(int(line))
     fhand.close()
-    return lst1, lst2
+    return lst
 
 
 def equal_num(lst1, lst2):
