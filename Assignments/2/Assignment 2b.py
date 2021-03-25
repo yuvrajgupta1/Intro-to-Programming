@@ -89,6 +89,7 @@ def cal_health_p(gross_income):
     return health_p
 
 
+# calculate provincial tax
 def cal_p_tax(gross_income):
     x = gross_income
     p_tax = 0
@@ -114,6 +115,7 @@ def cal_p_tax(gross_income):
     return p_tax
 
 
+# calculate federal tax
 def cal_f_tax(gross_income):
     x = gross_income
     f_tax = 0
