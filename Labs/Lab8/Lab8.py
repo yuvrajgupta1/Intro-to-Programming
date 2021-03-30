@@ -8,7 +8,7 @@ def readFile(filename, lst):
 
     # reading file and putting numbers into a list
     for line in fhand:
-        lst.append(line)
+        lst.append(int(line))
 
     # file closed
     fhand.close()
@@ -34,7 +34,7 @@ def writeFile(filename):
 
     # writing data into file
     for i in lst3:
-        fhand.write(i)
+        fhand.write(str(i)+"\n")
 
     # file close
     fhand.close()
